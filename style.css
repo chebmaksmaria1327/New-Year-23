@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    color: white;
+
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+
+}
+
+.header {
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+.nav__list {
+    display: flex;
+    column-gap: 50px;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+.nav__link {
+    font-weight: 500;
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+
+.main {
+    background-color: #706f6f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
+    text-align: center;
+    background-image: url(a26d65a2c7de68141d2e2cd4fe7b5050.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 60px;
+    margin: 0;
+
+}
+
+.title__top {
+    font-size: 80px;
+    top: 20px;
+    font-family: 'Libre Bodoni', serif;
+    margin-right: 100px;
+}
+
+.title__btm {
+    text-transform: uppercase;
+    font-family: 'Libre Bodoni', serif;
+    ;
+    font-weight: 700;
+}
+
+.main__desc {
+    width: 700px;
+    font-size: 19px;
+    margin-bottom: 70px;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.main__link {
+    font-weight: 600;
+    background-color: rgb(88, 5, 5);
+    padding: 10px;
+    min-width: 160px;
+    border-radius: 15px;
+}
+
+.main__link:hover {
+    background-color: rgba(141, 0, 0, 0.863);
+    box-shadow: 0px 0px 8px 0px black;
+}
+
+.desc__main {
+    background-color: #706f6f;
+    height: 700px;
+    width: 700px;
+    border: 4px solid black;
+    background-image: url(584a1b446518acc1c97d3debb2902edd.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc {
+    background-color: rgb(167, 0, 0);
+    border: 4px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    
+}
+
+.des {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.text {
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Libre Bodoni', serif;
+}
+
+.desc__main2 {
+    height: 750px;
+    width: 1000px;
+    border: 4px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(zimnyaya-kartina-cerkvi-s-domami.jpg);
+    overflow: hidden;
+}
+
+.desk2 {
+    background-color: rgb(194, 207, 210);
+    border: 8px solid rgb(0, 0, 0);
+    display: flex;
+
+}
+
+
+.text2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px 10px 0px ;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.des2 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Libre Bodoni', serif;
+}
